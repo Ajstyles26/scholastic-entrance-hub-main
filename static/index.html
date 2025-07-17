@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajayi Crowther University - Admission Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen">
+  <!-- Navbar -->
+  <nav class="w-full flex items-center justify-between px-6 py-4 bg-university-blue text-white fixed top-0 left-0 z-50 shadow-lg">
+    <div class="flex items-center space-x-4">
+      <img src="logo.png" alt="Ajayi Crowther University Logo" class="h-12 w-auto">
+      <span class="font-bold text-lg hidden sm:block">Ajayi Crowther University</span>
+    </div>
+    <div class="flex items-center space-x-4">
+      <button class="bg-white/10 border border-white/30 text-white px-3 py-1 rounded hover:bg-white/20">Login</button>
+      <svg class="sm:hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative bg-gradient-to-br from-university-blue to-university-blue/90 text-white overflow-hidden min-h-screen flex items-center pt-24">
+    <div class="absolute inset-0 opacity-30">
+      <img src="university-hero-bg-DKGWyk5C.jpg" alt="University Campus" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-br from-university-blue/60 to-university-blue/80"></div>
+    </div>
+    <div class="relative container mx-auto px-4 py-20 text-center lg:text-left max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+        Welcome to <span class="text-university-gold">Ajayi Crowther University</span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 text-white/90">Begin your journey to academic excellence. Apply now and join our community of scholars committed to transforming lives through quality education.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+        <button class="bg-university-gold text-university-blue px-6 py-3 rounded font-semibold flex items-center">Start Your Application<svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></button>
+        <button class="bg-white/10 border border-white/30 text-white px-6 py-3 rounded hover:bg-white/20 flex items-center"><svg class="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7l-4-4-4 4m8 10l-4 4-4-4"/></svg>Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-20 bg-background">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-6">About Ajayi Crowther University</h2>
+        <p class="text-lg text-muted-foreground leading-relaxed">Founded on the principles of academic excellence and moral integrity, Ajayi Crowther University stands as a beacon of quality education in Nigeria. Our commitment to <em>Scientia Probitas</em> guides everything we do, ensuring our graduates are equipped with both knowledge and character.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div class="text-center p-6 bg-white rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-light-blue rounded-full"><svg class="h-6 w-6 text-university-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 20h5V8h-5m-2 12V8m-3 12V4m-3 16v-6m-3 6V10M3 20h5V10H3v10z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div></div>
+          <h3 class="text-2xl font-bold text-university-blue mb-2">15,000+</h3>
+          <p class="text-muted-foreground">Students</p>
+        </div>
+        <div class="text-center p-6 bg-white rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-light-blue rounded-full"><svg class="h-6 w-6 text-university-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M12 14l6.16-3.422A12.083 12.083 0 0112 21.07a12.083 12.083 0 01-6.16-10.493L12 14z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div></div>
+          <h3 class="text-2xl font-bold text-university-blue mb-2">50+</h3>
+          <p class="text-muted-foreground">Programs</p>
+        </div>
+        <div class="text-center p-6 bg-white rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-light-blue rounded-full"><svg class="h-6 w-6 text-university-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 17l4-4 4 4m0-8l-4 4-4-4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div></div>
+          <h3 class="text-2xl font-bold text-university-blue mb-2">25+</h3>
+          <p class="text-muted-foreground">Years of Excellence</p>
+        </div>
+        <div class="text-center p-6 bg-white rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-light-blue rounded-full"><svg class="h-6 w-6 text-university-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14.048 14.121a9.004 9.004 0 001.163-4.59 9 9 0 10-9 9 9.004 9.004 0 004.59-1.163" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M15 9v6m3-3H9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div></div>
+          <h3 class="text-2xl font-bold text-university-blue mb-2">30+</h3>
+          <p class="text-muted-foreground">International Partners</p>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
+          <p class="text-muted-foreground mb-6">To provide world-class education that combines academic rigor with moral development, preparing students to become leaders who will make positive contributions to society.</p>
+          <h3 class="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
+          <p class="text-muted-foreground">To be a premier university recognized globally for excellence in teaching, research, and community service, built on the foundation of Christian values and Nigerian heritage.</p>
+        </div>
+        <div class="bg-university-light-blue rounded-lg p-8">
+          <h3 class="text-2xl font-bold text-university-blue mb-4">Why Choose ACU?</h3>
+          <ul class="space-y-3 text-muted-foreground">
+            <li class="flex items-start"><span class="text-university-gold mr-2">•</span>Accredited programs with international recognition</li>
+            <li class="flex items-start"><span class="text-university-gold mr-2">•</span>World-class faculty and research facilities</li>
+            <li class="flex items-start"><span class="text-university-gold mr-2">•</span>Strong industry partnerships and internship opportunities</li>
+            <li class="flex items-start"><span class="text-university-gold mr-2">•</span>Vibrant campus life and extracurricular activities</li>
+            <li class="flex items-start"><span class="text-university-gold mr-2">•</span>Excellent graduate employment rates</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admission Process -->
+  <section class="py-20 bg-university-light-blue/30">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-6">Admission Process</h2>
+        <p class="text-lg text-muted-foreground">Follow these simple steps to begin your journey at Ajayi Crowther University. Our streamlined process makes it easy to apply and track your application status.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="relative text-center bg-white rounded shadow p-6">
+          <div class="flex justify-center mb-4"><div class="relative"><div class="p-4 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h8M8 12h6m2 8H8a2 2 0 01-2-2V6a2 2 0 012-2h6l4 4v12a2 2 0 01-2 2z"/></svg></div><div class="absolute -top-2 -right-2 bg-university-gold text-university-blue rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">1</div></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Submit Application</h3>
+          <p class="text-muted-foreground mb-6">Complete your online application form with all required documents and information.</p>
+          <button class="border border-university-blue text-university-blue px-4 py-2 rounded w-full">Start Application</button>
+        </div>
+        <div class="relative text-center bg-white rounded shadow p-6">
+          <div class="flex justify-center mb-4"><div class="relative"><div class="p-4 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8c-2.21 0-4 .896-4 2v4c0 1.104 1.79 2 4 2s4-.896 4-2v-4c0-1.104-1.79-2-4-2z"/><path d="M6 12v4c0 2.209 3.582 4 8 4s8-1.791 8-4v-4c0-2.209-3.582-4-8-4s-8 1.791-8 4z"/></svg></div><div class="absolute -top-2 -right-2 bg-university-gold text-university-blue rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">2</div></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Pay Application Fee</h3>
+          <p class="text-muted-foreground mb-6">Pay the non-refundable application fee to process your admission request.</p>
+          <button class="border border-university-blue text-university-blue px-4 py-2 rounded w-full">Pay Fee</button>
+        </div>
+        <div class="relative text-center bg-white rounded shadow p-6">
+          <div class="flex justify-center mb-4"><div class="relative"><div class="p-4 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 21v-2a4 4 0 00-3-3.87M12 3a4 4 0 100 8 4 4 0 000-8zm4 8v2m0 4v.01M8 13v2m0 4v.01M2 21h20"/></svg></div><div class="absolute -top-2 -right-2 bg-university-gold text-university-blue rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">3</div></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Document Verification</h3>
+          <p class="text-muted-foreground mb-6">Our admissions team will review and verify all submitted documents.</p>
+          <button class="border border-university-blue text-university-blue px-4 py-2 rounded w-full">Upload Documents</button>
+        </div>
+        <div class="relative text-center bg-white rounded shadow p-6">
+          <div class="flex justify-center mb-4"><div class="relative"><div class="p-4 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></div><div class="absolute -top-2 -right-2 bg-university-gold text-university-blue rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">4</div></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Admission Decision</h3>
+          <p class="text-muted-foreground mb-6">Receive your admission decision and enrollment instructions via email.</p>
+          <button class="border border-university-blue text-university-blue px-4 py-2 rounded w-full">Check Status</button>
+        </div>
+      </div>
+      <div class="mt-16 text-center">
+        <div class="bg-white rounded-lg p-8 max-w-2xl mx-auto shadow-lg">
+          <h3 class="text-2xl font-bold text-university-blue mb-4">Application Deadlines</h3>
+          <div class="grid md:grid-cols-2 gap-6 text-left">
+            <div>
+              <h4 class="font-semibold text-foreground mb-2">Fall Semester 2024</h4>
+              <p class="text-muted-foreground">Early Admission: March 31, 2024</p>
+              <p class="text-muted-foreground">Regular Admission: June 30, 2024</p>
+            </div>
+            <div>
+              <h4 class="font-semibold text-foreground mb-2">Spring Semester 2025</h4>
+              <p class="text-muted-foreground">Early Admission: October 31, 2024</p>
+              <p class="text-muted-foreground">Regular Admission: December 31, 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Requirements -->
+  <section class="py-20 bg-background">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-6">Admission Requirements</h2>
+        <p class="text-lg text-muted-foreground">Review the specific requirements for your desired program level. Ensure you meet all criteria before submitting your application.</p>
+      </div>
+      <div class="grid lg:grid-cols-3 gap-8 mb-16">
+        <div class="h-full bg-white rounded shadow p-6">
+          <h3 class="text-xl text-university-blue flex items-center gap-2 mb-4 font-bold"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg>Undergraduate Programs</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Senior Secondary School Certificate (SSCE) with minimum 5 credits including English and Mathematics</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">JAMB UTME score of minimum 180</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Completed application form with passport photographs</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Birth certificate or declaration of age</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Local Government Area Certificate of Origin</span></li>
+          </ul>
+        </div>
+        <div class="h-full bg-white rounded shadow p-6">
+          <h3 class="text-xl text-university-blue flex items-center gap-2 mb-4 font-bold"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg>Postgraduate Programs</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">First degree from a recognized university with minimum Second Class Lower Division</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Official transcripts from all previous institutions</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Two academic references</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Statement of purpose (500-1000 words)</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Curriculum Vitae (CV)</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">English proficiency test (for international students)</span></li>
+          </ul>
+        </div>
+        <div class="h-full bg-white rounded shadow p-6">
+          <h3 class="text-xl text-university-blue flex items-center gap-2 mb-4 font-bold"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg>International Students</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Equivalent qualifications to Nigerian requirements</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">English proficiency test (IELTS/TOEFL)</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Valid passport and visa documentation</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Medical certificate and vaccination records</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Financial guarantee or scholarship documentation</span></li>
+            <li class="flex items-start gap-2"><div class="h-1.5 w-1.5 bg-university-gold rounded-full mt-2"></div><span class="text-muted-foreground">Academic credentials evaluation by NECO</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-university-light-blue/50 rounded-lg p-8">
+        <h3 class="text-2xl font-bold text-university-blue mb-6 text-center">Required Documents Checklist</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="flex items-center gap-3 bg-white p-4 rounded-lg"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg><span class="text-sm text-muted-foreground">Completed application form</span></div>
+          <div class="flex items-center gap-3 bg-white p-4 rounded-lg"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg><span class="text-sm text-muted-foreground">Academic transcripts/certificates</span></div>
+          <div class="flex items-center gap-3 bg-white p-4 rounded-lg"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg><span class="text-sm text-muted-foreground">Passport photographs (recent)</span></div>
+          <div class="flex items-center gap-3 bg-white p-4 rounded-lg"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg><span class="text-sm text-muted-foreground">Birth certificate/age declaration</span></div>
+          <div class="flex items-center gap-3 bg-white p-4 rounded-lg"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg><span class="text-sm text-muted-foreground">Certificate of origin</span></div>
+          <div class="flex items-center gap-3 bg-white p-4 rounded-lg"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg><span class="text-sm text-muted-foreground">Medical fitness certificate</span></div>
+          <div class="flex items-center gap-3 bg-white p-4 rounded-lg"><svg class="h-5 w-5 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg><span class="text-sm text-muted-foreground">Character reference letters</span></div>
+        </div>
+        <div class="mt-8 p-6 bg-white rounded-lg border-l-4 border-university-gold">
+          <h4 class="font-semibold text-university-blue mb-2">Important Note:</h4>
+          <p class="text-muted-foreground text-sm">All documents must be original or certified true copies. International documents require authentication by relevant authorities. Incomplete applications will not be processed.</p>
+        </div>
+      </div>
+      <div class="mt-12 text-center">
+        <div class="inline-flex gap-3 flex-wrap justify-center">
+          <span class="px-4 py-2 bg-secondary text-foreground rounded">Application Fee: ₦15,000</span>
+          <span class="px-4 py-2 bg-secondary text-foreground rounded">Processing Time: 2-4 weeks</span>
+          <span class="px-4 py-2 bg-secondary text-foreground rounded">Results via Email & SMS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-20 bg-university-light-blue/30">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-6">Contact Admissions Office</h2>
+        <p class="text-lg text-muted-foreground">Have questions about the admission process? Our friendly admissions team is here to help you every step of the way.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div class="text-center bg-white p-6 rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m6 12v6m0-3h-5l3-3 3 3zm-3-3a9 9 0 11-9-9"/></svg></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Phone Numbers</h3>
+          <p class="text-muted-foreground text-sm mb-1">+234 803 123 4567</p>
+          <p class="text-muted-foreground text-sm mb-1">+234 805 987 6543</p>
+        </div>
+        <div class="text-center bg-white p-6 rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12v1m0 4v-2a4 4 0 00-4-4H4"/></svg></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Email Addresses</h3>
+          <p class="text-muted-foreground text-sm mb-1">admissions@acu.edu.ng</p>
+          <p class="text-muted-foreground text-sm mb-1">info@acu.edu.ng</p>
+        </div>
+        <div class="text-center bg-white p-6 rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5V8h-5m-2 12V8m-3 12V4m-3 16v-6m-3 6V10M3 20h5V10H3v10z"/></svg></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Campus Address</h3>
+          <p class="text-muted-foreground text-sm mb-1">Oyo-Ogbomoso Road</p>
+          <p class="text-muted-foreground text-sm mb-1">Oyo, Oyo State, Nigeria</p>
+        </div>
+        <div class="text-center bg-white p-6 rounded shadow">
+          <div class="flex justify-center mb-4"><div class="p-3 bg-university-blue rounded-full"><svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v2m0 4v.01M8 12h.01M16 12h.01M12 16h.01M12 8h.01M12 12h.01"/></svg></div></div>
+          <h3 class="text-lg text-university-blue mb-2 font-bold">Office Hours</h3>
+          <p class="text-muted-foreground text-sm mb-1">Monday - Friday: 8:00 AM - 5:00 PM</p>
+          <p class="text-muted-foreground text-sm mb-1">Saturday: 9:00 AM - 2:00 PM</p>
+        </div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="bg-white rounded-lg p-8 shadow-lg">
+          <h3 class="text-2xl font-bold text-university-blue mb-6">Get Instant Help</h3>
+          <div class="space-y-4">
+            <button class="bg-university-blue text-white px-6 py-3 rounded w-full flex items-center justify-start"><svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 10c0-.587-.142-1.145-.395-1.635M15 16v2a4 4 0 01-4 4H5a4 4 0 01-4-4V8a4 4 0 014-4h6"/></svg>Start Live Chat</button>
+            <button class="border border-university-blue text-university-blue px-6 py-3 rounded w-full flex items-center justify-start"><svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4v11H6V10h4m2-4a2 2 0 114 0z"/></svg>Request a Callback</button>
+            <button class="border border-university-blue text-university-blue px-6 py-3 rounded w-full flex items-center justify-start"><svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12v1m0 4v-2a4 4 0 00-4-4H4"/></svg>Send Email Inquiry</button>
+          </div>
+          <div class="mt-8 p-4 bg-university-light-blue rounded-lg">
+            <h4 class="font-semibold text-university-blue mb-2">Quick Response Guarantee</h4>
+            <p class="text-sm text-muted-foreground">We respond to all inquiries within 24 hours during business days. For urgent matters, please call our hotline.</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold text-foreground mb-6">Frequently Asked Questions</h3>
+          <div class="space-y-4">
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+              <h4 class="font-semibold text-university-blue mb-2">What is the application deadline?</h4>
+              <p class="text-muted-foreground text-sm">Application deadlines vary by semester. Fall semester applications close June 30th, while Spring semester applications close December 31st.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+              <h4 class="font-semibold text-university-blue mb-2">Can I apply for multiple programs?</h4>
+              <p class="text-muted-foreground text-sm">Yes, you can apply for up to two programs per application cycle. Please indicate your preferences in order of priority.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+              <h4 class="font-semibold text-university-blue mb-2">Are scholarships available?</h4>
+              <p class="text-muted-foreground text-sm">Yes, we offer merit-based and need-based scholarships. Visit our financial aid office or check our website for available opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-university-blue text-white">
+    <div class="container mx-auto px-4 py-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center gap-3 mb-6">
+            <img src="logo.png" alt="Ajayi Crowther University Logo" class="h-12 w-auto"/>
+            <div>
+              <h3 class="text-lg font-bold">Ajayi Crowther University</h3>
+              <p class="text-sm text-white/80">Scientia Probitas</p>
+            </div>
+          </div>
+          <p class="text-white/80 text-sm mb-4">Excellence in education, research, and community service built on Christian values and Nigerian heritage.</p>
+          <div class="flex gap-4">
+            <svg class="h-5 w-5 text-white/80 hover:text-university-gold cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h3v20h-3zM16 6h2v12h-2zM13 4h2v16h-2zM10 8h2v8h-2zM7 10h2v4H7zM4 12h2v0H4z"/></svg>
+            <svg class="h-5 w-5 text-white/80 hover:text-university-gold cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0016.5 2c-2.5 0-4.5 2.15-4.5 4.8 0 .38.04.75.12 1.11C7.69 7.82 4.07 5.94 1.64 2.91a4.81 4.81 0 00-.61 2.42c0 1.67.8 3.15 2.02 4.02A4.41 4.41 0 01.96 8v.06A4.8 4.8 0 004.43 12a4.38 4.38 0 01-2.01.08 4.44 4.44 0 004.13 3.15A8.88 8.88 0 010 18.54a12.5 12.5 0 006.29 1.84c7.55 0 11.68-6.49 11.68-12.12 0-.18-.01-.35-.02-.52A8.18 8.18 0 0023 3z"/></svg>
+            <svg class="h-5 w-5 text-white/80 hover:text-university-gold cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.41 2.87 8.17 6.84 9.49.5.09.68-.21.68-.47 0-.23-.01-.83-.01-1.64-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.45-1.11-1.45-.91-.63.07-.62.07-.62 1.01.07 1.54 1.05 1.54 1.05.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.67-.1-.25-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.03A9.58 9.58 0 0112 6.8c.85.004 1.7.115 2.5.335 1.9-1.3 2.74-1.03 2.74-1.03.55 1.38.2 2.41.1 2.66.64.69 1.03 1.58 1.03 2.67 0 3.86-2.34 4.7-4.57 4.95.36.31.68.92.68 1.86 0 1.34-.01 2.42-.01 2.75 0 .26.18.57.69.47A10.01 10.01 0 0022 12c0-5.5-4.46-9.96-10-9.96z"/></svg>
+            <svg class="h-5 w-5 text-white/80 hover:text-university-gold cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8a6 6 0 016 6v6h-4v-6a2 2 0 00-4 0v6h-4v-6a6 6 0 016-6zM2 9h4v12H2z"/></svg>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">About ACU</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Academic Programs</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Research</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Campus Life</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Alumni</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Admissions</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Apply Now</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Requirements</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Scholarships</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">International Students</a></li>
+            <li><a href="#" class="text-white/80 hover:text-university-gold transition-colors">Contact Admissions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+          <div class="space-y-3 text-sm">
+            <div class="flex items-center gap-2"><svg class="h-4 w-4 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12v1m0 4v-2a4 4 0 00-4-4H4"/></svg><span class="text-white/80">+234 803 123 4567</span></div>
+            <div class="flex items-center gap-2"><svg class="h-4 w-4 text-university-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12v1m0 4v-2a4 4 0 00-4-4H4"/></svg><span class="text-white/80">admissions@acu.edu.ng</span></div>
+            <div class="text-white/80"><p>Oyo-Ogbomoso Road</p><p>Oyo, Oyo State, Nigeria</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-white/80 text-sm">© 2024 Ajayi Crowther University. All rights reserved.</p>
+        <div class="flex gap-6 mt-4 md:mt-0">
+          <a href="#" class="text-white/80 hover:text-university-gold text-sm transition-colors">Privacy Policy</a>
+          <a href="#" class="text-white/80 hover:text-university-gold text-sm transition-colors">Terms of Service</a>
+          <a href="#" class="text-white/80 hover:text-university-gold text-sm transition-colors">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
